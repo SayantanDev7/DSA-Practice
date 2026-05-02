@@ -39,6 +39,7 @@ vector<int> levelOrder(Node* node){
         if(temp->left) q.push(temp->left); //if left child exists push it in the queue
         if(temp->right) q.push(temp->right); //if right child exists push it in the queue
     }
+    return ans;
 }
 
 //let make a dummy tree to test our code
