@@ -1,0 +1,12 @@
+Sum of All Nodes
+
+struct Sumofallnodes
+{
+    /* data */
+    int sum;
+    Node* root;
+};
+
+int main(){
+    return 0;
+}
